@@ -6,7 +6,7 @@ Welcome to databot's world!
 
 
 
-The databot applicaton are made with one or many pipes. and run by ```BorFrame.run()```.
+The databot applicaton are made with one or many pipes. and run by ```BotFrame.run()```.
 The simplest applicaton like this :
 
 .. code-block:: python
@@ -24,15 +24,15 @@ Concept of the databot very simple. ```I doubt if it is good to write a guide :-
 
 - function
 - function object. class with override ```__call__```
-- lambada
+- lambda
 
 
 
-**Route** is for duplicating data for multiple purposes. for simple applicaiton ,you don't need route.
+**Route** is for duplicating data for multiple purposes. for simple application, you don't need route.
 Just a main pipe.
 
-case 1: when get a tick bitcoin price from api ,
-   you want save it to file and mysql at same time.
+case 1: when get a tick bitcoin price from api,
+   you want save it to file and mysql at the same time.
 
 .. code-block:: python
 
@@ -47,7 +47,7 @@ case 1: when get a tick bitcoin price from api ,
 
 
 
-case 2: crawler get a google search result page . it maybe need to parse search result and next page link .
+case 2: crawler get a google search result page. It maybe need to parse search result and next page link.
 
 
 .. code-block:: python
@@ -64,11 +64,11 @@ case 2: crawler get a google search result page . it maybe need to parse search 
       )
 
 
-up two code block look like fake code. but they are true sample.
+up two code block look like fake code, but they are true sample.
 
 .. warning::
 
-    In this document Data,Message ,Event are the same thing.
+    In this document Data, Message, Event are the same thing.
 
 
 .. toctree::
